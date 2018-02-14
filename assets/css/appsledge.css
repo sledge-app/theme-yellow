@@ -1041,7 +1041,7 @@ input:checked + label > .sd-f-wrapper .switch-inactive { display: none; }
 .sd-f-wrapper .top-bar.sg-menu-back-dark li { filter: brightness(140%); }
 .sd-f-wrapper .top-bar.sg-menu-back-dark strong { color: rgb(221, 221, 221); }
 .sd-f-wrapper .top-bar-title { display: flex; flex-direction: row; justify-content: flex-start; align-items: center; }
-.sd-f-wrapper .top-bar-title .sg-logo { height: 30px; width: 50px; float: left; margin: 0px !important; }
+.sd-f-wrapper .top-bar-title .sg-logo { height: 30px; width: 50px; float: left; margin: 0px 0px 0px 10px !important; }
 .sd-f-wrapper .top-bar-title strong { margin-left: 10px; }
 .sd-f-wrapper .sg-logo-menu.sg-logo.sg-large { height: 50px; width: 100px; }
 .sd-f-wrapper .sg-logo-menu.sg-logo.sg-small { height: 20px; width: 30px; }
@@ -1104,34 +1104,121 @@ input:checked + label > .sd-f-wrapper .switch-inactive { display: none; }
 .sd-back-65 { background-image: url("../sledge/medias/zig_zag_wool/zig_zag_wool.png"); }
 div.sg_text_columns { column-rule: 1px solid rgb(255, 247, 164); }
 .sg-color-scheme-1-text, a.sg-color-scheme-1-text { color: rgb(167, 153, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-1-text::after { border-color: rgb(167, 153, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-1-text::after { border-color: transparent transparent transparent rgb(167, 153, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-1-text::after { border-color: transparent rgb(167, 153, 0) transparent transparent !important; }
 .sg-color-scheme-2-text, a.sg-color-scheme-2-text { color: rgb(255, 247, 164) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-2-text::after { border-color: rgb(255, 247, 164) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-2-text::after { border-color: transparent transparent transparent rgb(255, 247, 164) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-2-text::after { border-color: transparent rgb(255, 247, 164) transparent transparent !important; }
 .sg-color-scheme-3-text, a.sg-color-scheme-3-text { color: rgb(255, 243, 112) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-3-text::after { border-color: rgb(255, 243, 112) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-3-text::after { border-color: transparent transparent transparent rgb(255, 243, 112) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-3-text::after { border-color: transparent rgb(255, 243, 112) transparent transparent !important; }
 .sg-color-scheme-4-text, a.sg-color-scheme-4-text { color: rgb(217, 198, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-4-text::after { border-color: rgb(217, 198, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-4-text::after { border-color: transparent transparent transparent rgb(217, 198, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-4-text::after { border-color: transparent rgb(217, 198, 0) transparent transparent !important; }
 .sg-color-scheme-5-text, a.sg-color-scheme-5-text { color: rgb(255, 233, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-5-text::after { border-color: rgb(255, 233, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-5-text::after { border-color: transparent transparent transparent rgb(255, 233, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-5-text::after { border-color: transparent rgb(255, 233, 0) transparent transparent !important; }
 .sg-color-scheme-6-text, a.sg-color-scheme-6-text { color: rgb(10, 10, 10) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-6-text::after { border-color: rgb(10, 10, 10) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-6-text::after { border-color: transparent transparent transparent rgb(10, 10, 10) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-6-text::after { border-color: transparent rgb(10, 10, 10) transparent transparent !important; }
 .sg-color-scheme-7-text, a.sg-color-scheme-7-text { color: rgb(254, 254, 254) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-7-text::after { border-color: rgb(254, 254, 254) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-7-text::after { border-color: transparent transparent transparent rgb(254, 254, 254) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-7-text::after { border-color: transparent rgb(254, 254, 254) transparent transparent !important; }
 .sg-color-scheme-8-text, a.sg-color-scheme-8-text { color: rgb(230, 230, 230) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-8-text::after { border-color: rgb(230, 230, 230) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-8-text::after { border-color: transparent transparent transparent rgb(230, 230, 230) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-8-text::after { border-color: transparent rgb(230, 230, 230) transparent transparent !important; }
 .sg-color-scheme-9-text, a.sg-color-scheme-9-text { color: rgb(202, 202, 202) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-9-text::after { border-color: rgb(202, 202, 202) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-9-text::after { border-color: transparent transparent transparent rgb(202, 202, 202) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-9-text::after { border-color: transparent rgb(202, 202, 202) transparent transparent !important; }
 .sg-color-scheme-10-text, a.sg-color-scheme-10-text { color: rgb(138, 138, 138) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-10-text::after { border-color: rgb(138, 138, 138) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-10-text::after { border-color: transparent transparent transparent rgb(138, 138, 138) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-10-text::after { border-color: transparent rgb(138, 138, 138) transparent transparent !important; }
 .sg-color-scheme-11-text, a.sg-color-scheme-11-text { color: rgb(118, 118, 118) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-11-text::after { border-color: rgb(118, 118, 118) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-11-text::after { border-color: transparent transparent transparent rgb(118, 118, 118) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-11-text::after { border-color: transparent rgb(118, 118, 118) transparent transparent !important; }
 .sg-color-scheme-12-text, a.sg-color-scheme-12-text { color: rgb(118, 158, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-12-text::after { border-color: rgb(118, 158, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-12-text::after { border-color: transparent transparent transparent rgb(118, 158, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-12-text::after { border-color: transparent rgb(118, 158, 0) transparent transparent !important; }
 .sg-color-scheme-13-text, a.sg-color-scheme-13-text { color: rgb(217, 156, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-13-text::after { border-color: rgb(217, 156, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-13-text::after { border-color: transparent transparent transparent rgb(217, 156, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-13-text::after { border-color: transparent rgb(217, 156, 0) transparent transparent !important; }
 .sg-color-scheme-14-text, a.sg-color-scheme-14-text { color: rgb(204, 75, 55) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-14-text::after { border-color: rgb(204, 75, 55) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-14-text::after { border-color: transparent transparent transparent rgb(204, 75, 55) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-14-text::after { border-color: transparent rgb(204, 75, 55) transparent transparent !important; }
 .sg-color-scheme-15-text, a.sg-color-scheme-15-text { color: rgb(190, 255, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-15-text::after { border-color: rgb(190, 255, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-15-text::after { border-color: transparent transparent transparent rgb(190, 255, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-15-text::after { border-color: transparent rgb(190, 255, 0) transparent transparent !important; }
 .sg-color-scheme-16-text, a.sg-color-scheme-16-text { color: rgb(232, 255, 164) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-16-text::after { border-color: rgb(232, 255, 164) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-16-text::after { border-color: transparent transparent transparent rgb(232, 255, 164) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-16-text::after { border-color: transparent rgb(232, 255, 164) transparent transparent !important; }
 .sg-color-scheme-17-text, a.sg-color-scheme-17-text { color: rgb(218, 255, 112) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-17-text::after { border-color: rgb(218, 255, 112) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-17-text::after { border-color: transparent transparent transparent rgb(218, 255, 112) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-17-text::after { border-color: transparent rgb(218, 255, 112) transparent transparent !important; }
 .sg-color-scheme-18-text, a.sg-color-scheme-18-text { color: rgb(153, 206, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-18-text::after { border-color: rgb(153, 206, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-18-text::after { border-color: transparent transparent transparent rgb(153, 206, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-18-text::after { border-color: transparent rgb(153, 206, 0) transparent transparent !important; }
 .sg-color-scheme-19-text, a.sg-color-scheme-19-text { color: rgb(118, 158, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-19-text::after { border-color: rgb(118, 158, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-19-text::after { border-color: transparent transparent transparent rgb(118, 158, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-19-text::after { border-color: transparent rgb(118, 158, 0) transparent transparent !important; }
 .sg-color-scheme-20-text, a.sg-color-scheme-20-text { color: rgb(255, 183, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-20-text::after { border-color: rgb(255, 183, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-20-text::after { border-color: transparent transparent transparent rgb(255, 183, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-20-text::after { border-color: transparent rgb(255, 183, 0) transparent transparent !important; }
 .sg-color-scheme-21-text, a.sg-color-scheme-21-text { color: rgb(255, 229, 164) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-21-text::after { border-color: rgb(255, 229, 164) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-21-text::after { border-color: transparent transparent transparent rgb(255, 229, 164) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-21-text::after { border-color: transparent rgb(255, 229, 164) transparent transparent !important; }
 .sg-color-scheme-22-text, a.sg-color-scheme-22-text { color: rgb(255, 215, 112) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-22-text::after { border-color: rgb(255, 215, 112) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-22-text::after { border-color: transparent transparent transparent rgb(255, 215, 112) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-22-text::after { border-color: transparent rgb(255, 215, 112) transparent transparent !important; }
 .sg-color-scheme-23-text, a.sg-color-scheme-23-text { color: rgb(217, 156, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-23-text::after { border-color: rgb(217, 156, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-23-text::after { border-color: transparent transparent transparent rgb(217, 156, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-23-text::after { border-color: transparent rgb(217, 156, 0) transparent transparent !important; }
 .sg-color-scheme-24-text, a.sg-color-scheme-24-text { color: rgb(167, 120, 0) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-24-text::after { border-color: rgb(167, 120, 0) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-24-text::after { border-color: transparent transparent transparent rgb(167, 120, 0) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-24-text::after { border-color: transparent rgb(167, 120, 0) transparent transparent !important; }
 .sg-color-scheme-25-text, a.sg-color-scheme-25-text { color: rgb(125, 21, 255) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-25-text::after { border-color: rgb(125, 21, 255) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-25-text::after { border-color: transparent transparent transparent rgb(125, 21, 255) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-25-text::after { border-color: transparent rgb(125, 21, 255) transparent transparent !important; }
 .sg-color-scheme-26-text, a.sg-color-scheme-26-text { color: rgb(208, 171, 255) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-26-text::after { border-color: rgb(208, 171, 255) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-26-text::after { border-color: transparent transparent transparent rgb(208, 171, 255) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-26-text::after { border-color: transparent rgb(208, 171, 255) transparent transparent !important; }
 .sg-color-scheme-27-text, a.sg-color-scheme-27-text { color: rgb(182, 124, 255) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-27-text::after { border-color: rgb(182, 124, 255) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-27-text::after { border-color: transparent transparent transparent rgb(182, 124, 255) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-27-text::after { border-color: transparent rgb(182, 124, 255) transparent transparent !important; }
 .sg-color-scheme-28-text, a.sg-color-scheme-28-text { color: rgb(65, 0, 147) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-28-text::after { border-color: rgb(65, 0, 147) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-28-text::after { border-color: transparent transparent transparent rgb(65, 0, 147) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-28-text::after { border-color: transparent rgb(65, 0, 147) transparent transparent !important; }
 .sg-color-scheme-29-text, a.sg-color-scheme-29-text { color: rgb(50, 0, 113) !important; }
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a.sg-color-scheme-29-text::after { border-color: rgb(50, 0, 113) transparent transparent !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a.sg-color-scheme-29-text::after { border-color: transparent transparent transparent rgb(50, 0, 113) !important; }
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a.sg-color-scheme-29-text::after { border-color: transparent rgb(50, 0, 113) transparent transparent !important; }
 .sg-color-scheme-1, a.sg-color-scheme-1 { background-color: rgb(167, 153, 0); }
 .sg-color-scheme-2, a.sg-color-scheme-2 { background-color: rgb(255, 247, 164); }
 .sg-color-scheme-3, a.sg-color-scheme-3 { background-color: rgb(255, 243, 112); }
@@ -1246,6 +1333,7 @@ div.sg_text_columns { column-rule: 1px solid rgb(255, 247, 164); }
 .sg-color-scheme-27-title li.menu-text { color: rgb(182, 124, 255); }
 .sg-color-scheme-28-link li a { color: rgb(65, 0, 147); }
 .sg-color-scheme-28-title li.menu-text { color: rgb(65, 0, 147); }
+.is-drilldown .drilldown a { color: rgb(167, 153, 0) !important; }
 .sg-txt-align-right { text-align: right; }
 .sg-txt-align-center { text-align: center; }
 .sg-txt-align-justify { text-align: justify; }
@@ -2397,7 +2485,7 @@ div.sg_text_cont p { margin-bottom: 0,1rem; }
 .sd-f-wrapper-s .show-for-medium { display: none !important; }
 .sd-f-wrapper-s .top-bar { display: block; align-items: center; }
 .sd-f-wrapper-s .top-bar-title .sg-logo { position: absolute; right: 0px; height: 30px; }
-.sd-f-wrapper-s .sg-logo.sg-logo-menu.sg-large { height: 35px; width: 90px; top: 10px; right: 0px; }
+.sd-f-wrapper-s .sg-logo.sg-logo-menu.sg-large { height: 35px; width: 90px; top: 10px; right: 10px; }
 .sd-f-wrapper-s .sg-logo.sg-logo-menu.sg-small { height: 20px; width: 30px; }
 .sd-f-wrapper-s table.stack thead { display: none; }
 .sd-f-wrapper-s table.stack tfoot { display: none; }
